@@ -1,6 +1,6 @@
 var Customer = require('./models/customer.js');
 var stripeKeys = require('./config.js');
-var stripe = require('stripe')(stripeKeys.secretKey);
+var stripe = require('stripe')('sk_test_vYbLAVlfXadiOiZAsOd4bNH7');
 
 module.exports = function(app){
   app.get('/stripe',

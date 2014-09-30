@@ -1,4 +1,4 @@
-Stripe.setPublishableKey('pk_test_1ejKLCjIWwvKauXLgvNrC7Vx');
+Stripe.setPublishableKey('pk_test_lj9eYRe5nlffycMFiDZmGxKF');
 
 
 $(document).ready(function() {
